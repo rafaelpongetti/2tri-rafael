@@ -1,0 +1,35 @@
+ :root {
+   --cor-de-fundo: rgb(0, 132, 255);
+   --cor-de-fundo1: rgb(0, 110, 255);
+   --cor-de-fundo2: rgb(58, 190, 252);
+
+
+ }
+
+ body {
+   background-color: var(--cor-de-fundo);
+ }
+
+ .cabeçalho {
+   background-color: var(--cor-de-fundo1);
+ }
+
+ .cabeçalho-titulo {
+   font-size: 36px;
+   font-weight: 700;
+   padding: 12px;
+   text-align: center;
+ }
+ .cabeçalho-menu {
+   background-color: var(--cor-de-fundo2);
+ }
+ 
+ .cabeçalho-menu-item {
+   display: block;
+   padding: 10px;
+   font-size: 24px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   border-top: 1px solid;
+ }
