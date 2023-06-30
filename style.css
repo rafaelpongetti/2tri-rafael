@@ -33,3 +33,14 @@
    text-align: center;
    border-top: 1px solid;
  }
+
+   #burguer {
+    background-color: rgb(71, 71, 255);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    #menu {
+    display: none;
+    }

@@ -6,12 +6,15 @@
     <meta nome="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Projeto Programação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title></title>
 </head>
 <body>
     <header class="cabeçalho">
         <h1 class="cabeçalho-titulo">Programação I</h1>
-        <nav class="cabeçalho-menu">
+        <span id="burguer" class="material-symbols-outlined"
+        onclick="clickMenu()">menu</span>
+        <nav id="menu" class="cabecalho-menu">
             <u1>
                 <li><a class="cabeçalho-menu-item" href="#">Diciplina</a> </li>
                 <li><a class="cabeçalho-menu-item" href="#">Professores</a> </li>
@@ -19,5 +22,17 @@
             </ul>
         </nav>
     </header>
+   
+
+<script>
+
+function clickMenu() {
+if (menu.style.display == 'block') {
+menu.style.display = 'none';
+} else {
+menu.style.display = 'block';
+}
+}
+</script>
 </body>
 </html>
